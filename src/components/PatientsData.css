@@ -1,0 +1,48 @@
+.patient-data{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    margin-top: 2rem;
+    background-color: #fff;
+}
+.patient-data-h1{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+}
+.patient-data-p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+    color: #858585;
+}
+.patient-data-img{
+    width: 500px;
+}
+@media screen and (min-width: 1024px){
+    .patient-data-h1{
+        font-size: 3.5rem;
+    }
+    .patient-data-p{
+        font-size: 2rem;
+    }
+    .patient-data-img{
+        width: 700px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .patient-data-h1{
+        font-size: 4rem;
+    }
+    .patient-data-p{
+        width: 1000px;
+    }
+    .patient-data-img{
+        width: 1000px;
+    }
+}

@@ -1,0 +1,24 @@
+.sticky-foot{
+    background-color: #032507;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.stick-p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 100%;
+    color: #fff;
+    text-align: center;
+}
+@media screen and (min-width: 1024px){
+    .stick-p{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 1200px){
+    .stick-p{
+        font-size: 2rem;
+    }
+}

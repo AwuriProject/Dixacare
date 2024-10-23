@@ -1,0 +1,77 @@
+.subheader-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+}
+.header-message{
+    margin-top: 4rem;
+}
+.header-h1{
+    color: #C9F939;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 1.5rem;
+}
+.header-paragraph-one{
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 100%;
+    margin-bottom: 1.5rem;
+}
+.header-paragraph-two{
+    color: #E0E0E0;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 1.5rem;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (min-width: 1024px){
+    .subheader-section{
+       grid-template-columns: 1fr 1fr;
+       gap: 5rem;
+       margin-top: 3rem;
+       padding: 0;
+    }
+   .Sect{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+   }
+    .header-message{
+        margin-top: 5rem;
+    }
+    .header-h1{
+        font-size: 2rem;
+    }
+    .header-paragraph-one{
+        font-size: 4rem;
+    }
+}
+@media screen and (min-width: 1200px){
+    .Sect{
+        gap: 3rem;
+       }
+       .header-h1{
+        font-size: 2.5rem;
+    }
+    .header-paragraph-one{
+        font-size: 5rem;
+    }
+    .header-paragraph-two{
+        margin: 0;
+    }
+}

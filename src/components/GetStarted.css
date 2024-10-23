@@ -1,0 +1,80 @@
+.get-start{
+    background-color: #fff;
+    padding: 2rem;
+}
+.get-start-subsect{
+    display: grid;
+    gap: 2rem;
+    background-color: #06430D;
+    padding: 3rem;
+    border-radius: 5rem;
+}
+.get-start-h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    color: #c9f939;
+}
+.get-start-h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+}
+.get-start-p{
+    font-size: 1.5rem;
+    font-weight: 400px;
+    line-height: 100%;
+    text-align: center;
+    color: #e0e0e0;
+}
+.get-started-div{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    
+}
+.get-start-next{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+.get-start-img{
+    width: 200px;
+}
+@media screen and (min-width: 1024px){
+    .get-start-img{
+        width: 250px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .get-start-subsect{
+        grid-template-columns: 1fr 1fr;
+    }
+    .get-start-subsect-sec{
+        padding: 1rem 2rem 0 0;
+        margin: 0;
+    }
+    .get-start-h1{
+        font-size: 2rem;
+        text-align: left;
+        /* margin-top: 1.5rem; */
+    }
+    .get-start-h2{
+        font-size: 5.5rem;
+        margin: 3rem 0;
+        text-align: left;
+    }
+    .get-start-p{
+        font-size: 2rem;
+        margin-bottom: 3.5rem;
+        text-align: left;
+    }
+    
+    .get-start-img{
+        width: 300px;
+    }
+}

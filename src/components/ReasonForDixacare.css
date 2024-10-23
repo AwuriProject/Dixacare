@@ -1,0 +1,61 @@
+.reason-for-dixacare{
+    background-color: #30953B;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.white-yellow{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.white{
+    height: 50%;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    padding: 0.5rem;
+}
+.yellow{
+    height: 50%;
+    border-radius: 50%;
+    background-color: #FFC107;
+    padding: 0.5rem;
+}
+.white-yellow-paragraph{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 100%;
+}
+.docs-img{
+    display: none;
+}
+@media screen and (min-width: 1024px){
+    .reason-for-dixacare{
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .doc-img{
+        display: none;
+    }
+    .docs-img{
+        width: 300px;
+        display: block;
+    }
+    .white-yellow-paragraph{
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 1200px){
+    .white-yellow-paragraph{
+        font-size: 3.5rem;
+    }
+    .docs-img{
+        width: 400px;
+    }
+}

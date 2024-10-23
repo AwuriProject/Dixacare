@@ -1,0 +1,21 @@
+.wait-list{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 2rem 0;
+    padding: 0;
+   
+}
+.wait-list p{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.wait-list a{
+    color: hsla(45, 100%, 51%, 1);
+    text-decoration: underline;
+}
+@media screen and (min-width: 1200px){
+    .wait-list p{
+        font-size: 2rem;
+    }
+}

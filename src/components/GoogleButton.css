@@ -1,0 +1,22 @@
+.google-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border: 3px solid #000;
+    box-shadow: 3px 3px grey;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+}
+.google-button p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+@media screen and (min-width: 1200px){
+    .google-button p{
+       font-size: 2rem;
+    }
+}
